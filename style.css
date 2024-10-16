@@ -1,0 +1,63 @@
+header{
+    background-color: blue;
+    /*PADRAO CSS*/
+    display: flex; /*Tornando os itens flex*/
+    justify-content: space-around; /*Justificando o conteudo*/
+    align-items: center;  /*Alinhamento na vertical*/
+    padding: 2rem;  /*Preenchimento interno*/
+ 
+    
+}
+
+header img{
+      width: 7rem; /*1 rem equivale 16px*/
+      height: auto; 
+ 
+}
+
+header h1 {
+    color: white;
+}
+
+section:first-child{
+    background-color: aquamarine;
+    padding: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:last-child{
+    background-color:brown;
+    padding: 13rem;
+    display: flex;
+    justify-content: space-evenly; /*alinhamneto na horizontal*/
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+}
+/*Editando a imagem*/
+.img-section {
+   width: 20rem;
+   height: auto;
+
+}
+
+.img-footer {
+    width: 10rem;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    background-color: cadetblue;
+    
+}
+
+footer p {
+    margin:2rem;
+    color: white;
+}
